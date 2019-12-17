@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>| SwiftSolve, LLC. |</title>
-</head>
-<body>
-    <div class="container">
-        <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
-        <div id="MySidepanel" class="sidepanel">
-            <ul id="nav">
-                <li><p>Home</p></li>
-                <li><a href="#">Regularly Offered Contracts</a></li>
-                    <ul>
-                        <li><a href="#">Welcome</a></li>
-                        <li><a href="#">Rare Item Sourcing</a></li>
-                        <li><a href="#">Protection</a></li>
-                        <li><a href="#">LSIA Hangar</a></li>
-                    </ul>
-                <li><a href="#">Client Contract Services</a></li>
-                    <ul>
-                        <li><a href="#">"Loss Recovery"</a></li>
-                        <li><a href="#">Vespucci Canals Warehouse</a></li>
-                        <li><a href="#">LSIA Car Garage</a></li>
-                        <li><a href="#">LSIA Hangar</a></li>
-                    </ul>
-                <li><a href="#">Specialized Services</a></li>
-                    <ul>
-                        <li><a href="#">Intro</a></li>
-                        <li><a href="#">Our Facilities</a></li>
-                            <ul>
-                                <li><a href="#">Data Facility</a></li>
-                                <li><a href="#">North Facility</a></li>
-                            </ul>
-                    </ul>
-                <li><a href="#">Available Assets</a></li>
-                    <ul>
-                        <li><a href="#">Intro</a></li>
-                            <ul>
-                                <li><a href="#">TerrorByte</a></li>
-                                <li><a href="#">Cargobob</a></li>
-                                <li><a href="#">Armored Cars </a></li>
-                            </ul>
-                        <li><a href="#">Diamond Casino Contracts</a></li>
-                        <li><a href="#">Partnerships and Sponsorships</a></li>
-                    </ul>
-                <li><a href="#">Careers</a></li>
-                    <ul>
-                        <li><a href="#">Available Positions</a></li>
-                        <li><a href="#">Further Inquiries</a></li>
-                    </ul>
-            </ul>
-        </div>
-        <div class="main">
-            <div class="topimage">
-                <!-- Office photo goes here -->
-                <h2>SwiftSolve, LLC.</h2>
-                <h4>For rapid and secure sourcing, storage and transport of valuable and rare items.</h4>
-                <p>~ | Since 2019 | Los Santos, San Andreas | ~</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" links="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" links="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/icon-font.css">
+
+        <title>| SwiftSolve, LLC. |</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__sidebar">
+                <h1 class="header__sidebar-text">☰</h1>
             </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
+            <div class="header__logo-box">
+                <div class="header__logo-box-border">
+                    <div class="header__text-box-left">
+                        <h1 class="heading-icon">S</h1>
+                    </div>
+                    <i class="header__logo icon-basic-watch"></i>
+                    <div class="header__text-box-right">
+                        <h1 class="heading-icon">S</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="heading-primary">
+                <!-- <span class=" header__heading heading-primary--main">Swift Solve</span> -->
+            </div>
+            
+        </header>
+        <main>
+            <section class="section-discover">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary discover__heading">
+                        Discover Our Contracts
+                    </h2>
+                </div>
+            </section>
+        </main>
+        <!-- <section class="section-nav"> -->
+            <!-- <div class="nav__btn">
+                <button class="btn btn--open" id="open-btn">☰</button>
+            </div> -->
+            <!-- <div class="sidepanel" id="sidepanel--id">
+                <button class="btn btn--close" id="close-btn">☰</button>
+                <button class="btn--dropdown"><a href="#">Home</a>
+                <button class="btn btn--dropdown">Regularly Offered Contracts<i class="fa fa-caret-down"></i></button>
+                <div class="sidepanel__dropdown--links">
+                    <a href="#" class="sidepanel--a">Welcome</a>
+                    <a href="#" class="sidepanel--a">Rare Item Sourcing</a>
+                    <a href="#" class="sidepanel--a">Protection</a>                                
+                    <a href="#" class="sidepanel--a">LSIA Hangar</a>
+                </div>
+                <button class="btn btn--dropdown">Client Contract Services<i class="fa fa-caret-down"></i></button>
+                <div class="sidepanel__dropdown--links">
+                    <a href="#" class="sidepanel--a">"Loss Recovery"</a>
+                    <a href="#" class="sidepanel--a">Vespucci Canals Warehouse</a>
+                    <a href="#" class="sidepanel--a">LSIA Car Garage</a>
+                </div>
+                <button class="btn btn--dropdown">Specialized Services<i class="fa fa-caret-down"></i></button>
+                <div class="sidepanel__dropdown--links">
+                    <a href="#" class="sidepanel--a">Intro</a>
+                    <a href="#" class="sidepanel--a">Our Facilities</a>
+                    <a href="#" class="sidepanel--a">Data Facility</a>
+                    <a href="#" class="sidepanel--a">North Facility</a>
+                </div>
+                <button class="btn btn--dropdown">Available Assets<i class="fa fa-caret-down"></i></button>
+                <div class="sidepanel__dropdown--links">
+                    <a href="#" class="sidepanel--a">Intro</a>
+                    <a href="#" class="sidepanel--a">TerrorByte</a>
+                    <a href="#" class="sidepanel--a">Cargobob</a>
+                    <a href="#" class="sidepanel--a">Armored Cars</a>
+                </div>
+                <button class="btn btn--dropdown">Official Partnerships<i class="fa fa-caret-down"></i></button>
+                <div class="sidepanel__dropdown--links">
+                    <a href="#" class="sidepanel--a">Diamond Casino Contracts</a>
+                    <a href="#" class="sidepanel--a">Partnerships and Sponsorships</a>
+                </div>
+                <button class="btn btn--dropdown">Careers<i class="fa fa-caret-down"></i></button>
+                <div class="sidepanel__dropdown--links">
+                    <a href="#" class="sidepanel--a">Available Positions</a>
+                    <a href="#" class="sidepanel--a">Further Inquiries</a>
+                </div>
+            </div> -->
+            <!-- <button class="btn btn-nav" onmouseover="openNav()">☰</button>   -->
+        <!-- </section> -->
+        <!-- Place Welcome image from img folder here -->
+    <script src="js/script.js"></script>
 </body>
 </html>

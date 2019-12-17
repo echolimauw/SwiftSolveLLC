@@ -1,0 +1,58 @@
+.btn{
+    &,
+    &:link,
+    &:visited {
+        cursor: pointer;
+        border: none;
+    }
+    
+    // &:link,
+    // &:visited{
+    //     text-transform: uppercase;
+    //     text-decoration: none;
+    //     padding: 1.5rem;
+    //     border-radius: 10rem;
+    //     font-size: 1.6rem;
+    //     display: inline-block;
+    // }
+
+    &--open{
+        color: $color-black;
+        background-color: $color-white-1;
+        padding: 0 .75rem;
+        font-size: 2.6rem;
+
+        &:hover{
+            background-color: $color-black;
+            color: $color-white-1;
+        }
+    }
+    &--close{
+        display: none;
+        font-size: 1.4rem;
+        margin-left: 2.1rem;
+        cursor: pointer;
+        background-color: $color-white-1;
+        color: $color-black;
+        padding: 1rem 1.5rem;
+        border:none;
+        &:hover{
+            background-color: $color-black;
+            color: $color-white-1;
+        }
+    }
+
+    &--dropdown{
+        display: none;
+        width: 100%;
+        background-color: $color-black;
+        color: $color-white-1;
+        
+        &:hover{
+            background-color: $color-white-1;
+            color: $color-black;
+            display: none;
+        }
+    }
+    
+}

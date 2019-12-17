@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+        box-sizing: inherit;
+}
+
+/* 1rem = root pixels AKA 1rem = 10px */
+/* best practice is to set as a percentage */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}

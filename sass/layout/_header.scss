@@ -1,0 +1,63 @@
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba($color-white-1, 0), rgba($color-white-2, 0)), url("../../img/City-line-1.jpg");
+
+    background-size: cover;
+    background-position: top;
+    // clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    position: relative;
+
+    &__heading {
+        position: absolute;
+        top: 40%;
+        left: 17%;
+    }
+    &__sidebar {
+        position: absolute;
+        top:3%;
+        left:95%;
+    }
+//logo box parent
+//logo box border child
+//header__text box left child of border and sibling to right
+    &__logo-box{
+        height: 10rem;
+        width:10rem;
+        display:inline-block;
+        // position: absolute;
+        // top:22.5%;
+        // left:49%;
+        text-align: center;
+
+        &-border {
+            width: 100%;
+            height: 100%;
+            border: 3px solid black;
+            
+        }
+    }
+    &__logo {
+        height: 7rem;
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        -webkit-background-clip: text;
+        color: $color-black;
+        // position: absolute;
+        // top:20px;
+        // left:50px;
+    }
+    &__text-box{
+        transform: translate(-50%, -50%);
+        text-align: center;
+        &-left {
+            // position: absolute;
+            // top: 10px;
+            // left: 32px;
+        }
+        &-right{
+            // position: absolute;
+            // top: 10px;
+            // left: 131px;
+        }
+    }
+}

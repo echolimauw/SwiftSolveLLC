@@ -1,0 +1,43 @@
+.heading-primary {
+    font-size: 3rem;
+    font-weight: 400;
+    color: $color-black;
+    margin-bottom: 6rem;
+    text-align:center;
+    backface-visibility: hidden;
+    font-family: sans-serif;
+
+    &--main {
+        display: block;
+        font-size: 7rem;
+        font-weight: 400;
+        letter-spacing: 3rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+    }
+}
+.heading-icon {
+    font-size: 3rem;
+    font-weight: 400;
+    color: $color-black;
+    margin-bottom: 6rem;
+    backface-visibility: hidden;
+    font-family: sans-serif;
+}
+
+.heading-secondary {
+    font-size: 3.4rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: $color-black;
+
+    &:hover{
+        text-shadow: .5rem 1rem 1rem rgba($color-black, .2);
+        cursor: default;
+    }
+}
